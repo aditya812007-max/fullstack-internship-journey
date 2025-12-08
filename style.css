@@ -1,0 +1,65 @@
+/* GLOBAL RESET - The most important part of CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding doesn't make boxes wider */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #1a1a1a; /* Dark Grey */
+    color: white;
+    padding: 1rem;
+    position: sticky; /* Sticks to top */
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex; /* Flexbox - aligns items in a row */
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 80vh; /* 80% of viewport height */
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* FOOTER (The part I asked you to add) */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
